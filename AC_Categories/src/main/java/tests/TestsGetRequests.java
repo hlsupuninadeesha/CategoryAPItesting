@@ -46,6 +46,8 @@ public class TestsGetRequests {
 		response.then().assertThat().body("CanRelist",equalTo(true));
 		System.out.println("CanRelist Acceptance criteria is a sucess");
 
+		
+		
 		//Asserting the body parameters in JSON get response
 		//Response  responsepromotion = getrequests.getPromotions(baseURI,basePath);
 		response.then().assertThat().body("Promotions[1].Name",equalTo("Gallery"),"Promotions[1].Description",equalTo("Good position in category"));		
