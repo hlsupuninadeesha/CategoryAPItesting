@@ -6,12 +6,12 @@ import io.restassured.response.Response;
 public class GetRequests {
 
 	/* * These methods are used to pass the URL parameters and return json response in order to assert at run time
-	   * This pattern can be used with other CURD operations to increase the usability and mainatainability of the code
-	   * Requirement was only to seert get response for now but can further develop this for other requests as well.
-	  
-	  
-	*/
-	
+	 * This pattern can be used with other CURD operations to increase the usability and mainatainability of the code
+	 * Requirement was only to seert get response for now but can further develop this for other requests as well.
+
+
+	 */
+
 	public Response getName(String baseURI,String basePath)
 	{
 
